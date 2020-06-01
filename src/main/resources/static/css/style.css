@@ -1,0 +1,89 @@
+body {
+  background-color: #F8F8F8;
+}
+
+body .box .name {
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15px;
+}
+
+body .box .update {
+  border-radius: 10px;
+  border: solid 5px #333;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0px 0px 10px #333;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body .box .update .image {
+  border: solid 3px #AAA;
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  color: #333;
+}
+
+body .box .update .image .imageText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body .box .update .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  background-color: #FFF;
+}
+
+body .box .update .btn {
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background-color: #26F;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+body .box .update .wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  display: none;
+}
+
+body .box .update .wrap img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}

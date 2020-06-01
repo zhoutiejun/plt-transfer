@@ -1,0 +1,86 @@
+body {
+  background-color: #000;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body .box .login {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  border: solid 5px #AAA;
+  border-radius: 10px;
+  transform: translateY(200px);
+}
+
+body .box .login ul {
+  width: 100%;
+  display: flex;
+  height: 35px;
+}
+
+body .box .login ul li {
+  width: 50%;
+  color: #AAA;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+body .box .login ul li:hover {
+  background-color: #26F;
+  color: #FFF;
+}
+
+body .box .login ul .active {
+  background-color: #26F;
+  color: #FFF;
+}
+
+body .box .login .from {
+  width: 100%;
+  text-align: center;
+  transform: translateY(60px);
+}
+
+body .box .login .from div {
+  transform: translateX(-50px);
+}
+
+body .box .login .from input {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  outline: none;
+}
+
+body .box .login .from span {
+  width: 120px;
+  text-align: right;
+  display: inline-block;
+  color: #fff;
+}
+
+body .box .login .from .btn {
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background-color: #26F;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  margin-top: 15px;
+  outline: none;
+}
