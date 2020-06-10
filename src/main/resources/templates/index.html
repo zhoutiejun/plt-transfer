@@ -7,23 +7,14 @@
     <link rel = "stylesheet" href = "../static/css/style.css"/>
 </head>
 <body>
-    <div class = "box">
-        <div class = "name">
-            <select>
-                <option>文字转换</option>
-                <option>图形转换</option>
-                <option>条码转换</option>
-            </select>
-        </div>
-        <div class = "update">
-            <div class = "wrap">
-                <img src = "../static/image/loading.gif"/>
-            </div>
-            <div class = "image">
-                <div class = "imageText">上传图片</div>
-            </div>
-            <button class = "btn">转换</button>
-        </div>
+    <div class = "box" style="margin: 100px auto; width:600px;">
+		<select style="margin-right: 20px">
+            <option>文字转换</option>
+            <option>图形转换</option>
+            <option>条码转换</option>
+        </select>
+        <input type = "file"/>
+        <button class = "btn">转换</button>
     </div>
 </body>
 <script src = "../static/api/axios.min.js"></script>
